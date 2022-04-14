@@ -1,1 +1,1 @@
-# docker-for-lnmp
+docker-compose up -d
