@@ -10,6 +10,8 @@ services:
       - "$HOME/nginx/www:/usr/share/nginx/html"
     links:
       - php-fpm
+      - redis
+      - mysql
   php-fpm:
     image: php:8.1.4-fpm-alpine3.14
     ports:
@@ -25,7 +27,7 @@ services:
       - "6379:6379"
     volumes:
       - "$HOME/redis/data:/data"
-      - "$HOME/redis/etc/::/usr/local/etc/redis"
+      - "$HOME/redis/etc/:/usr/local/etc/redis"
   mysql:
     image: mysql:8.0.28
     ports:
