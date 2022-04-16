@@ -3,11 +3,11 @@ services:
   nginx:
     image: nginx:1.20.2-alpine
     ports:
-     - "80:80"
+      - "80:80"
     volumes:
-    - "$HOME/nginx/etc:/etc/nginx"
-    - "$HOME/nginx/logs:/var/log/nginx"
-    - "$HOME/nginx/www:/usr/share/nginx/html"
+      - "$HOME/nginx/etc:/etc/nginx"
+      - "$HOME/nginx/logs:/var/log/nginx"
+      - "$HOME/nginx/www:/usr/share/nginx/html"
     links:
       - php-fpm
   php-fpm:
@@ -19,3 +19,19 @@ services:
       - "$HOME/nginx/www:/var/www/html"
       - "$HOME/php/logs:/usr/local/var/log"
       - "$HOME/php/etc/:/usr/local/etc"
+  redis:
+    image: redis:7.0-rc2-alpine3.15
+    ports:
+      - "6379:6379"
+    volumes:
+      - "$HOME/redis/data:/data"
+      - "$HOME/redis/etc/::/usr/local/etc/redis"
+  mysql:
+    image: mysql:8.0.28
+    ports:
+      - "3306:3306"
+    volumes:
+      - "$HOME/mysql/data:/var/lib/mysql"
+      - "$HOME/mysql/etc/:/etc/mysql/conf.d"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
